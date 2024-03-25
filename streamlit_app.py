@@ -120,7 +120,7 @@ filename = st.file_uploader("Please select a file to upload",help="Enter a file 
 
 if filename:
     st.session_state['uploaded_file'] = filename.name
-    st.write(filename.name)
+    # st.write(filename.name)
 
 # Check if the file has been uploaded
 if filename is not None or st.session_state['is_uploaded']==1:
